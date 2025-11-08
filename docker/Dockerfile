@@ -21,4 +21,4 @@ EXPOSE 8080
 
 # Run the Spring Boot app
 #CMD ["java","-jar","/build/libs/server-0.0.1-SNAPSHOT.jar"]
-RUN java -jar /build/libs/server-0.0.1-SNAPSHOT.jar
+RUN java -jar ./build/libs/server-0.0.1-SNAPSHOT.jar
