@@ -14,7 +14,7 @@ RUN git clone https://github.com/JosephMcAlear/Home-Automation-Server.git .
 RUN chmod +x ./gradlew
 
 # Build the project (optional, can be done at runtime if you want)
-RUN sudo ./gradlew build --no-daemon
+RUN ./gradlew build --no-daemon
 
 # Expose port 8080 (adjust if your app uses another)
 EXPOSE 8080
