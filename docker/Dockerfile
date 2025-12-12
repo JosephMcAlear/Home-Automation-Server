@@ -1,5 +1,5 @@
 # Use an official OpenJDK image as a base
-FROM openjdk:17-ea-jdk-slim
+FROM openjdk:21-ea-jdk-slim
 
 # Install git and any dependencies
 RUN apt-get update && apt-get install -y git curl && rm -rf /var/lib/apt/lists/*
